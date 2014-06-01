@@ -1,7 +1,8 @@
 from django.conf.urls import patterns, url
 
 
-urlpatterns = patterns('',
+urlpatterns = patterns('', 
+			url(r'^medhini/$', 'curiocity_test.views.medhini'),
     
     
 )
